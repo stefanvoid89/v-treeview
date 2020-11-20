@@ -1,0 +1,62 @@
+[
+
+    {
+      "label":"OSNOVNI",
+      "nodes":[
+        {"label":"REZERVACIJE","link":"/reservation?status=1",     "nodes":[
+          {"label":"REZERVACIJE","link":"/reservation?status=1"},
+          {"label":"UGOVORI","link":"/contract?status=1"},
+          {"label":"INT. REZERVACIJE","link":"/internal?status=1"},
+          {"label":"ZAMENA VOZILA","link":"/contract_car_replacements"}
+        ]},
+        {"label":"UGOVORI","link":"/contract?status=1"},
+        {"label":"INT. REZERVACIJE","link":"/internal?status=1"},
+        {"label":"ZAMENA VOZILA","link":"/contract_car_replacements"}
+      ]
+    },
+    {
+      "label":"RACUNI",
+      "nodes":[
+        {"label":"PREDRACUNI","link":"/proforma"},
+        {"label":"IZDATI RACUNI","link":"/invoice"},
+        {"label":"PRIMLJENI RACUNI  ","link":"/invoice_received"},
+        {"label":"POTROSNJA GORIVA","link":"/car_fuel"}
+      ]
+    },
+    {
+      "label":"VOZILA",
+      "nodes":[
+        {"label":"PREGLED VOZILA","link":"/car?status=1"},
+        {"label":"KALENDAR","link":"/schedule"},
+        {"label":"LISTA PREGLEDA","link":"/car_damage"},
+        {"label":"LIZING","link":"/leasing?status=1"},
+        {"label":"PLACANJA","link":"/loan","admin":true}
+      ]
+    },
+    {
+      "label":"SUBJEKTI",
+      "nodes":[
+        {"label":"Klijenti","link":"/subject"},
+        {"label":"GRUPE KLIJENATA","link":"/subject_group"}
+      ]
+    },
+    {
+      "label":"SIFARNICI",
+      "nodes":[
+        {"label":"MARKE I MODELI","link":"/car_model"},
+        {"label":"TIPOVI VOZILA","link":"/car_type"},
+        {"label":"OPREMA VOZILA","link":"/car_extra"},
+        {"label":"IDENTI","link":"/ident"},
+        {"label":"DODACI","link":"/reservation_extra"},
+        {"label":"KURSNA LISTA","link":"/fx_rate"}
+      ]
+    },
+    {
+      "label":"CENOVNICI",
+      "nodes":[
+        {"label":"NAJAM","link":"/price_list"},
+        {"label":"DODACI","link":"/price_list_extras"}
+      ]
+    },
+    {"label":"IZVESTAJI","link":"/report","admin":true}
+  ]
