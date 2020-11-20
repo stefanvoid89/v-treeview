@@ -12,7 +12,7 @@
     "src/**/*.vue",
     "src/**/*.js"
   ],
-  "repository": {"type": "git", "url": ""},
+  "repository": {"type": "git", "url": "https://github.com/stefanvoid89/v-treeview.git"},
   "scripts": {
     "serve": "vue-cli-service serve dev/serve.js --host 127.0.0.1 --port 8080",
     "build": "cross-env NODE_ENV=production rollup --config build/rollup.config.js",
